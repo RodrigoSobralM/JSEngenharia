@@ -1,0 +1,275 @@
+body {
+    margin: 0;
+    background-image: url('assets/backgroundHome.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.content1 {
+    display: flex;
+    width: 80%;
+    align-items: center;
+    margin-left: 40px;
+}
+
+.content1 img {
+    width: 100px;
+    height: 100px;
+}
+
+.content1 ul {
+    display: flex;
+    gap: 23px;
+    list-style: none;
+}
+
+.content1 ul li {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    cursor: pointer;
+    color: white;
+}
+
+.content1 ul li a:hover {
+    color: gray;
+}
+
+header button {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    width: 300px;
+    height: 50px;
+    border-radius: 10px;
+    margin-right: 40px;
+    cursor: pointer;
+}
+
+header button:hover {
+    background-color: gray;
+}
+
+.intro {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 50px;
+    margin-top: 80px;
+}
+
+.intro h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    color: white;
+}
+
+.intro p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.quemSomos {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 50px;
+    margin-top: 80px;
+    background-color: rgb(234, 233, 233)
+}
+
+.quemSomos img {
+    width: 600px;
+    height: 600px;
+}
+
+.quemSomos h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    color: black;
+}
+
+.quemSomos h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    color: black;
+}
+
+.quemSomos p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: black;
+}
+
+.textSomos {
+    width: 50%;
+}
+
+.nossaMissao {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 80px;
+}
+
+.nossaMissao img {
+    width: 350px;
+    height: 350px;
+}
+
+.nossaMissao h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: white;
+}
+
+.nossaMissao h1 {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+.nossaMissao p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.nossoServicos {
+    background-color: white;
+    margin-top: 80px;
+    text-align: center;
+}
+
+.titleServicos h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    margin-left: -30px;
+}
+
+.servicos {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 80px;
+}
+
+.servicos img {
+    width: 60px;
+    height: 60px;
+}
+
+.servicos p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+.nossoServicos button {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    width: 300px;
+    height: 50px;
+    border-radius: 10px;
+    margin-right: 40px;
+    cursor: pointer;
+    margin-top: 80px;
+    margin-left: 20px;
+    margin-bottom: 80px;
+}
+
+footer {
+    color: white;
+}
+.rodaPe {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 80px;
+}
+
+.contentPe1 {
+    font-family: 'Poppins', sans-serif;
+}
+
+.contentPe2 {
+    font-family: 'Poppins', sans-serif;
+}
+
+.marcaPage {
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.marcaPage h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+@media only screen and (max-width: 600px) {
+    header {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .intro {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .quemSomos {
+        display: flex;
+        flex-direction: column;
+        width: 600px;
+    }
+
+    .textSomos {
+        text-align: center;
+        padding: 20px;
+    }
+
+    .nossaMissao {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .nossoServicos {
+        width: 600px;
+    }
+
+    .servicos {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .rodaPe {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        
+    }
+}
