@@ -301,7 +301,7 @@ footer {
     font-weight: 400;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 767px) {
     body {
         width: 100%;
     }
@@ -309,7 +309,7 @@ footer {
     header {
         display: flex;
         flex-direction: column;
-        width: 600px;
+        width: 767px;
     }
 
     .contentHeader {
@@ -321,16 +321,16 @@ footer {
     .intro {
         display: flex;
         flex-direction: column;
-        width: 400px;
+        width: 767px;
     }
 
     .intro1 {
-        width: 600px;
+        width: 767px;
         padding-right: 40px;
     }
 
     .intro img {
-        width: 550px;
+        width: 600px;
     }
 
     .quemSomos {
@@ -340,8 +340,8 @@ footer {
     }
 
     .quemSomos img {
-        width: 400px;
-        height: 400px;
+        width: 600px;
+        height: 600px;
     }
 
     .textSomos {
@@ -354,7 +354,7 @@ footer {
         flex-direction: column;
         justify-content: center;
         text-align: center;
-        width: 600px;
+        width: 767px;
     }
 
     .contentTextMissao1 {
@@ -363,7 +363,7 @@ footer {
     }
 
     .nossoServicos {
-        width: 600px;
+        width: 767px;
     }
 
     #services {
@@ -375,11 +375,11 @@ footer {
         justify-content: center;
         align-items: center;
         text-align: center;
-        width: 600px;
+        max-width: 767px;
     }
 
     #obras img {
-        width: 550px;
+        width: 600px;
     }
 
     footer {
@@ -393,11 +393,11 @@ footer {
         flex-direction: column;
         text-align: center;
         align-items: center;
-        width: 600px;
+        width: 767px;
     }
 
     .marcaPage {
-        width: 600px;
+        width: 767px;
     }
 
 }
