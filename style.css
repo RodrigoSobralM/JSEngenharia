@@ -15,25 +15,25 @@ header {
     margin-top: 40px;
 }
 
-.content1 {
+.contentHeader {
     display: flex;
     width: 80%;
     align-items: center;
     margin-left: 40px;
 }
 
-.content1 img {
+.contentHeader img {
     width: 100px;
     height: 100px;
 }
 
-.content1 ul {
+.contentHeader ul {
     display: flex;
     gap: 23px;
     list-style: none;
 }
 
-.content1 ul li a {
+.contentHeader ul li a {
     font-family: 'Poppins', sans-serif;
     font-size: 20px;
     font-weight: 400;
@@ -41,7 +41,7 @@ header {
     color: white;
 }
 
-.content1 ul li a:hover {
+.contentHeader ul li a:hover {
     color: gray;
 }
 
@@ -70,6 +70,8 @@ header button:hover {
     justify-content: space-around;
     gap: 50px;
     margin-top: 80px;
+    padding-left: 100px;
+    padding-right: 100px;
 }
 
 .intro h1 {
@@ -84,6 +86,7 @@ header button:hover {
     font-size: 20px;
     font-weight: 400;
     color: rgba(255, 255, 255, 0.5);
+    
 }
 
 .quemSomos {
@@ -160,6 +163,10 @@ header button:hover {
     background-color: white;
     margin-top: 80px;
     text-align: center;
+}
+
+.contentTextMissao1 {
+    width: 50%;
 }
 
 .titleServicos h1 {
@@ -262,11 +269,11 @@ mark {
 
 footer {
     color: black;
-    background: white;
     height: 70px;
 }
 
 .rodaPe { 
+    background-color: white;
     color: black;
     display: flex;
     align-items: center;
@@ -302,9 +309,10 @@ footer {
     header {
         display: flex;
         flex-direction: column;
+        width: 600px;
     }
 
-    .content1 {
+    .contentHeader {
         display: flex;
         flex-direction: column;
         text-align: center;
@@ -313,13 +321,27 @@ footer {
     .intro {
         display: flex;
         flex-direction: column;
-        text-align: center;
+        width: 400px;
+    }
+
+    .intro1 {
+        width: 600px;
+        padding-right: 40px;
+    }
+
+    .intro img {
+        width: 550px;
     }
 
     .quemSomos {
         display: flex;
         flex-direction: column;
         width: 600px;
+    }
+
+    .quemSomos img {
+        width: 400px;
+        height: 400px;
     }
 
     .textSomos {
@@ -332,20 +354,19 @@ footer {
         flex-direction: column;
         justify-content: center;
         text-align: center;
-        margin-left: 60px;
+        width: 600px;
+    }
+
+    .contentTextMissao1 {
+        padding-left: 40px;
+        padding-right: 40px;
     }
 
     .nossoServicos {
         width: 600px;
     }
 
-    .servicos {
-        display: flex;
-        flex-direction: column;
-    }
-
     #services {
-        display: flex;
         flex-direction: column;
     }
 
@@ -354,11 +375,11 @@ footer {
         justify-content: center;
         align-items: center;
         text-align: center;
-        margin-left: 100px;
+        width: 600px;
     }
 
     #obras img {
-        width: 500px;
+        width: 550px;
     }
 
     footer {
@@ -372,5 +393,11 @@ footer {
         flex-direction: column;
         text-align: center;
         align-items: center;
+        width: 600px;
     }
+
+    .marcaPage {
+        width: 600px;
+    }
+
 }
